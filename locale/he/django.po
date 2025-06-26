@@ -1,0 +1,658 @@
+# Hebrew language Translation :)
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <MordechaiNeeman@outlook.com>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-26 22:31+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Mordechai Neeman <MordechaiNeeman@outlook.com>\n"
+"Language-Team: LANGUAGE <Hebrew>\n"
+"Language: Hebrew\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % "
+"1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;\n"
+#: myapp/forms.py:20
+msgid "Tile Color"
+msgstr "צבע אריח"
+
+#: myapp/forms.py:62
+msgid "File type is not supported."
+msgstr "סוג הקובץ אינו נתמך."
+
+#: myapp/forms.py:67
+msgid "File extension is not supported."
+msgstr "סיומת הקובץ אינה נתמכת."
+
+#: myapp/forms.py:71
+msgid "File size is too large."
+msgstr "גודל הקובץ גדול מדי."
+
+#: myapp/forms.py:87
+msgid "Value must be zero for loyalty cards."
+msgstr "הערך חייב להיות אפס עבור כרטיסי מועדון."
+
+#: myapp/forms.py:92
+msgid "Value must be a positive monetary amount."
+msgstr "הערך חייב להיות סכום כספי חיובי."
+
+#: myapp/forms.py:95
+msgid "Percentage value must be between 0 and 100."
+msgstr "ערך האחוז חייב להיות בין 0 ל-100."
+
+#: myapp/forms.py:98
+msgid "Multiplier must be 1 or higher."
+msgstr "המכפיל חייב להיות 1 או יותר."
+
+#: myapp/forms.py:100
+msgid "Value must be positive."
+msgstr "הערך חייב להיות חיובי."
+
+#: myapp/forms.py:117
+msgid "Transaction value must be negative."
+msgstr "ערך העסקה חייב להיות שלילי."
+
+#: myapp/forms.py:124
+msgid "Transaction would result in negative item value."
+msgstr "העסקה תגרום לערך פריט שלילי."
+
+#: myapp/templates/base.html:95 myapp/templates/update_apprise_urls.html:11
+msgid "Notification Settings"
+msgstr "הגדרות התראות"
+
+#: myapp/templates/base.html:101 myapp/templates/update_preferences.html:10
+msgid "Display Preferences"
+msgstr "העדפות תצוגה"
+
+#: myapp/templates/base.html:108
+#: myapp/templates/registration/password_change_done.html:8
+#: myapp/templates/registration/password_change_form.html:8
+#: myapp/templates/registration/password_change_form.html:27
+msgid "Change Password"
+msgstr "שנה סיסמה"
+
+#: myapp/templates/base.html:116
+msgid "Admin Settings"
+msgstr "הגדרות מנהל מערכת"
+
+#: myapp/templates/base.html:133
+msgid "Sign Out"
+msgstr "התנתק"
+
+#: myapp/templates/base.html:154 myapp/templates/dashboard.html:8
+#: myapp/templates/dashboard.html:12
+msgid "Dashboard"
+msgstr "לוח בקרה"
+
+#: myapp/templates/base.html:161 myapp/templates/edit-item.html:28
+#: myapp/templates/inventory.html:8 myapp/templates/inventory.html:12
+#: myapp/templates/view-item.html:19
+msgid "Inventory"
+msgstr "מלאי"
+
+#: myapp/templates/base.html:168
+msgid "Sharing Center"
+msgstr "מרכז שיתוף"
+
+#: myapp/templates/base.html:172
+msgid "Functions"
+msgstr "פונקציות"
+
+#: myapp/templates/base.html:177 myapp/templates/create-item.html:24
+#: myapp/templates/create-item.html:28
+msgid "Create New Item"
+msgstr "צור פריט חדש"
+
+#: myapp/templates/create-item.html:27 myapp/templates/dashboard.html:11
+#: myapp/templates/edit-item.html:27 myapp/templates/inventory.html:11
+#: myapp/templates/share_item.html:10 myapp/templates/sharing_center.html:11
+#: myapp/templates/view-item.html:18
+msgid "Home"
+msgstr "דף הבית"
+
+#: myapp/templates/create-item.html:46 myapp/templates/edit-item.html:39
+#: myapp/templates/view-item.html:15 myapp/templates/view-item.html:20
+msgid "Item Details"
+msgstr "פרטי פריט"
+
+#: myapp/templates/create-item.html:54 myapp/templates/edit-item.html:47
+msgid "No QR code detected"
+msgstr "לא זוהה קוד QR"
+
+#: myapp/templates/create-item.html:67 myapp/templates/edit-item.html:60
+msgid "Type"
+msgstr "סוג"
+
+#: myapp/templates/create-item.html:70 myapp/templates/edit-item.html:63
+msgid "Gift Card"
+msgstr "כרטיס מתנה"
+
+#: myapp/templates/create-item.html:71 myapp/templates/edit-item.html:64
+msgid "Voucher"
+msgstr "שובר"
+
+#: myapp/templates/create-item.html:72 myapp/templates/edit-item.html:65
+msgid "Coupon"
+msgstr "קופון"
+
+#: myapp/templates/create-item.html:73 myapp/templates/edit-item.html:66
+msgid "Loyalty Card"
+msgstr "כרטיס מועדון"
+
+#: myapp/templates/create-item.html:81 myapp/templates/edit-item.html:75
+msgid "Color"
+msgstr "צבע"
+
+#: myapp/templates/create-item.html:83 myapp/templates/edit-item.html:77
+msgid "Reset to default"
+msgstr "איפוס לברירת מחדל"
+
+#: myapp/templates/create-item.html:89 myapp/templates/edit-item.html:83
+msgid "Name"
+msgstr "שם"
+
+#: myapp/templates/create-item.html:91 myapp/templates/edit-item.html:85
+msgid "The name of the item"
+msgstr "שם הפריט"
+
+#: myapp/templates/create-item.html:96 myapp/templates/edit-item.html:89
+msgid "Issuer"
+msgstr "מנפיק"
+
+#: myapp/templates/create-item.html:98 myapp/templates/edit-item.html:91
+msgid "The issuer of the item"
+msgstr "המנפיק של הפריט"
+
+#: myapp/templates/create-item.html:103 myapp/templates/create-item.html:279
+#: myapp/templates/edit-item.html:95 myapp/templates/edit-item.html:279
+msgid "Redeem Code"
+msgstr "קוד מימוש"
+
+#: myapp/templates/create-item.html:106 myapp/templates/create-item.html:280
+#: myapp/templates/edit-item.html:98 myapp/templates/edit-item.html:280
+msgid "The redeem code of the item"
+msgstr "קוד המימוש של הפריט"
+
+#: myapp/templates/create-item.html:114 myapp/templates/edit-item.html:106
+msgid "Code Type"
+msgstr "סוג קוד"
+
+#: myapp/templates/create-item.html:135 myapp/templates/edit-item.html:127
+msgid "PIN Code"
+msgstr "קוד PIN"
+
+#: myapp/templates/create-item.html:137 myapp/templates/edit-item.html:129
+msgid "The pin code of the item"
+msgstr "קוד ה-PIN של הפריט"
+
+#: myapp/templates/create-item.html:142 myapp/templates/edit-item.html:133
+#: myapp/templates/inventory.html:95 myapp/templates/sharing_center.html:56
+#: myapp/templates/view-item.html:58
+msgid "Issue Date"
+msgstr "תאריך הנפקה"
+
+#: myapp/templates/create-item.html:158 myapp/templates/edit-item.html:144
+#: myapp/templates/inventory.html:100 myapp/templates/sharing_center.html:61
+#: myapp/templates/view-item.html:61
+msgid "Expiry Date"
+msgstr "תאריך תפוגה"
+
+#: myapp/templates/create-item.html:169 myapp/templates/edit-item.html:155
+#: myapp/templates/inventory.html:119 myapp/templates/sharing_center.html:80
+#: myapp/templates/view-item.html:76 myapp/templates/view-item.html:233
+#: myapp/templates/view-item.html:273
+msgid "Description"
+msgstr "תיאור"
+
+#: myapp/templates/create-item.html:171 myapp/templates/edit-item.html:157
+msgid "The description of the item"
+msgstr "התיאור של הפריט"
+
+#: myapp/templates/create-item.html:176 myapp/templates/edit-item.html:161
+msgid "Logo Slug"
+msgstr "מזהה לוגו"
+
+#: myapp/templates/create-item.html:186 myapp/templates/edit-item.html:171
+#: myapp/templates/inventory.html:109 myapp/templates/sharing_center.html:70
+#: myapp/templates/view-item.html:68 myapp/templates/view-item.html:234
+#: myapp/templates/view-item.html:277
+msgid "Value"
+msgstr "ערך"
+
+#: myapp/templates/create-item.html:189 myapp/templates/edit-item.html:174
+msgid "The value of the item"
+msgstr "הערך של הפריט"
+
+#: myapp/templates/create-item.html:199 myapp/templates/edit-item.html:183
+msgid "Upload File"
+msgstr "העלה קובץ"
+
+#: myapp/templates/create-item.html:206
+msgid "Create Item"
+msgstr "צור פריט"
+
+#: myapp/templates/create-item.html:271 myapp/templates/edit-item.html:270
+msgid "Store"
+msgstr "חנות"
+
+#: myapp/templates/create-item.html:272 myapp/templates/edit-item.html:271
+msgid "The store of your loyalty card"
+msgstr "החנות של כרטיס המועדון שלך"
+
+#: myapp/templates/create-item.html:273 myapp/templates/edit-item.html:272
+msgid "Loyalty ID"
+msgstr "מזהה מועדון"
+
+#: myapp/templates/create-item.html:274 myapp/templates/edit-item.html:273
+msgid "Loyalty card number or customer ID"
+msgstr "מספר כרטיס המועדון או מזהה לקוח"
+
+#: myapp/templates/create-item.html:297 myapp/templates/edit-item.html:297
+#, python-format
+msgid "e.g. 20%% off"
+msgstr "לדוג' 20%% הנחה"
+
+#: myapp/templates/create-item.html:305 myapp/templates/edit-item.html:305
+msgid "e.g. 2x payback points"
+msgstr "לדוג' 2x נקודות זיכוי"
+
+#: myapp/templates/create-item.html:313 myapp/templates/edit-item.html:313
+msgid "e.g. 5€"
+msgstr "לדוג' 5€"
+
+#: myapp/templates/dashboard.html:29
+msgid "My Giftcards"
+msgstr "כרטיסי המתנה שלי"
+
+#: myapp/templates/dashboard.html:47
+msgid "My Coupons"
+msgstr "הקופונים שלי"
+
+#: myapp/templates/dashboard.html:65
+msgid "My Vouchers"
+msgstr "השוברים שלי"
+
+#: myapp/templates/dashboard.html:83
+msgid "My Loyalty Cards"
+msgstr "כרטיסי המועדון שלי"
+
+#: myapp/templates/dashboard.html:101 myapp/templates/dashboard.html:121
+#: myapp/templates/dashboard.html:141 myapp/templates/dashboard.html:161
+msgid "Items"
+msgstr "פריטים"
+
+#: myapp/templates/dashboard.html:101 myapp/templates/inventory.html:35
+msgid "Available"
+msgstr "זמין"
+
+#: myapp/templates/dashboard.html:121 myapp/templates/inventory.html:36
+#: myapp/templates/inventory.html:72 myapp/templates/sharing_center.html:33
+#: myapp/templates/view-item.html:44
+msgid "Used"
+msgstr "בשימוש"
+
+#: myapp/templates/dashboard.html:141 myapp/templates/inventory.html:37
+#: myapp/templates/inventory.html:74 myapp/templates/sharing_center.html:35
+#: myapp/templates/view-item.html:46
+msgid "Expired"
+msgstr "פג תוקף"
+
+#: myapp/templates/dashboard.html:161 myapp/templates/inventory.html:38
+msgid "Soon Expiring"
+msgstr "פג תוקף בקרוב"
+
+#: myapp/templates/dashboard.html:181 myapp/templates/dashboard.html:200
+#: myapp/templates/sharing_center.html:8 myapp/templates/sharing_center.html:12
+#: myapp/templates/view-item.html:19
+msgid "Shared Items"
+msgstr "פריטים משותפים"
+
+#: myapp/templates/dashboard.html:181
+msgid "By You"
+msgstr "על ידך"
+
+#: myapp/templates/dashboard.html:200
+msgid "With You"
+msgstr "איתך"
+
+#: myapp/templates/dashboard.html:224 myapp/templates/view-item.html:264
+msgid "Total Value"
+msgstr "ערך כולל"
+
+#: myapp/templates/dashboard.html:224
+msgid "Available Items"
+msgstr "פריטים זמינים"
+
+#: myapp/templates/dashboard.html:241
+msgid "Item Distribution"
+msgstr "התפלגות פריטים"
+
+#: myapp/templates/dashboard.html:241
+msgid "Total"
+msgstr "סהכ"
+
+#: myapp/templates/dashboard.html:286 myapp/templates/inventory.html:28
+msgid "Coupons"
+msgstr "קופונים"
+
+#: myapp/templates/dashboard.html:287 myapp/templates/inventory.html:26
+msgid "Vouchers"
+msgstr "שוברים"
+
+#: myapp/templates/dashboard.html:288 myapp/templates/inventory.html:27
+msgid "Gift Cards"
+msgstr "כרטיסי מתנה"
+
+#: myapp/templates/dashboard.html:289 myapp/templates/inventory.html:29
+msgid "Loyalty Cards"
+msgstr "כרטיסי מועדון"
+
+#: myapp/templates/edit-item.html:24 myapp/templates/edit-item.html:29
+msgid "Edit Item"
+msgstr "ערוך פריט"
+
+#: myapp/templates/edit-item.html:190
+msgid "Update Item"
+msgstr "עדכן פריט"
+
+#: myapp/templates/inventory.html:25
+msgid "All Items"
+msgstr "כל הפריטים"
+
+#: myapp/templates/inventory.html:34
+msgid "All Status"
+msgstr "כל הסטטוסים"
+
+#: myapp/templates/inventory.html:39 myapp/templates/sharing_center.html:91
+msgid "Shared By Me"
+msgstr "שותף על ידי"
+
+#: myapp/templates/inventory.html:40 myapp/templates/sharing_center.html:89
+msgid "Shared With Me"
+msgstr "שותף איתי"
+
+#: myapp/templates/inventory.html:44
+msgid "Search keyword"
+msgstr "חפש מילת מפתח"
+
+#: myapp/templates/inventory.html:47
+msgid "Search"
+msgstr "חפש"
+
+#: myapp/templates/inventory.html:107 myapp/templates/sharing_center.html:68
+msgid "Percentage"
+msgstr "אחוז"
+
+#: myapp/templates/inventory.html:111 myapp/templates/sharing_center.html:72
+#: myapp/templates/view-item.html:70
+msgid "Multiplier"
+msgstr "מכפיל"
+
+#: myapp/templates/registration/login.html:143
+msgid "Username"
+msgstr "שם משתמש"
+
+#: myapp/templates/registration/login.html:147
+msgid "Password"
+msgstr "סיסמה"
+
+#: myapp/templates/registration/login.html:150
+msgid "Login"
+msgstr "התחבר"
+
+#: myapp/templates/registration/login.html:162
+msgid "Admin Panel"
+msgstr "פאנל ניהול"
+
+#: myapp/templates/registration/password_change_done.html:7
+#: myapp/templates/registration/password_change_form.html:7
+#: myapp/templates/update_apprise_urls.html:10
+#: myapp/templates/update_preferences.html:9
+msgid "User"
+msgstr "משתמש"
+
+#: myapp/templates/registration/password_change_done.html:18
+msgid "Password Change Successful"
+msgstr "הסיסמה שונתה בהצלחה"
+
+#: myapp/templates/registration/password_change_done.html:19
+msgid "Your password has been successfully changed"
+msgstr "הסיסמה שלך שונתה בהצלחה"
+
+#: myapp/templates/registration/password_change_done.html:20
+msgid "Go to Inventory"
+msgstr "עבור למלאי"
+
+#: myapp/templates/registration/password_change_form.html:18
+msgid "Change Your Password"
+msgstr "שנה את הסיסמה שלך"
+
+#: myapp/templates/share_item.html:7 myapp/templates/share_item.html:36
+msgid "Share Item"
+msgstr "שתף פריט"
+
+#: myapp/templates/share_item.html:12 myapp/templates/view-item.html:100
+msgid "Share"
+msgstr "שתף"
+
+#: myapp/templates/share_item.html:22
+msgid "Share this item with others"
+msgstr "שתף פריט זה עם אחרים"
+
+#: myapp/templates/share_item.html:27
+msgid "Select Users"
+msgstr "בחר משתמשים"
+
+#: myapp/templates/share_item.html:33
+msgid "Hold down the Ctrl (Windows) or Command (Mac) button to select multiple "
+"options."
+msgstr "החזק את מקש Ctrl (Windows) או Command (Mac) כדי לבחור מספר אפשרויות."
+
+#: myapp/templates/update_apprise_urls.html:21
+msgid "Configure Your Apprise URLs"
+msgstr "הגדר את כתובות ה-URL של Apprise"
+
+#: myapp/templates/update_apprise_urls.html:22
+msgid "These URLs will be used to send out personal expiry notifications. Leave "
+"empty to disable notifications."
+msgstr "כתובות אלו ישמשו לשליחת התראות תפוגה אישיות. השאר ריק כדי לבטל התראות."
+
+#: myapp/templates/update_apprise_urls.html:23
+msgid "Threshold"
+msgstr "סף"
+
+#: myapp/templates/update_apprise_urls.html:39
+msgid "Update"
+msgstr "עדכן"
+
+#: myapp/templates/update_apprise_urls.html:40
+msgid "Test"
+msgstr "בדוק"
+
+#: myapp/templates/update_apprise_urls.html:48
+msgid "Loading..."
+msgstr "טוען..."
+
+#: myapp/templates/update_preferences.html:20
+msgid "Configure Display Preferences"
+msgstr "הגדר העדפות תצוגה"
+
+#: myapp/templates/update_preferences.html:21
+msgid "Select which fields should be visible in your inventory/sharing view."
+msgstr "בחר אילו שדות יוצגו במלאי/שיתוף שלך."
+
+#: myapp/templates/update_preferences.html:39
+msgid "Update Preferences"
+msgstr "עדכן העדפות"
+
+#: myapp/templates/view-item.html:66
+msgid "Percent"
+msgstr "אחוזים"
+
+#: myapp/templates/view-item.html:86
+msgid "Edit"
+msgstr "ערוך"
+
+#: myapp/templates/view-item.html:89
+msgid "Duplicate"
+msgstr "שכפל"
+
+#: myapp/templates/view-item.html:94 myapp/templates/view-item.html:254
+msgid "Are you sure to delete?"
+msgstr "האם אתה בטוח שברצונך למחוק?"
+
+#: myapp/templates/view-item.html:95
+msgid "Delete"
+msgstr "מחק"
+
+#: myapp/templates/view-item.html:108
+msgid "Mark as Available"
+msgstr "סמן כזמין"
+
+#: myapp/templates/view-item.html:108
+msgid "Mark as Used"
+msgstr "סמן כבשימוש"
+
+#: myapp/templates/view-item.html:119
+msgid "Shared With:"
+msgstr "שותף עם:"
+
+#: myapp/templates/view-item.html:126
+msgid "Are you sure you want to unshare this item?"
+msgstr "האם אתה בטוח שברצונך לבטל שיתוף של פריט זה?"
+
+#: myapp/templates/view-item.html:127
+msgid "Unshare"
+msgstr "בטל שיתוף"
+
+#: myapp/templates/view-item.html:132
+msgid "This item is not shared with anyone."
+msgstr "פריט זה לא משותף עם אף אחד."
+
+#: myapp/templates/view-item.html:147
+msgid "Your Identity"
+msgstr "הזהות שלך"
+
+#: myapp/templates/view-item.html:149
+msgid "Scan to Redeem"
+msgstr "סרוק למימוש"
+
+#: myapp/templates/view-item.html:161 myapp/templates/view-item.html:320
+msgid "Show PIN"
+msgstr "הצג PIN"
+
+#: myapp/templates/view-item.html:174
+msgid "Show Image"
+msgstr "הצג תמונה"
+
+#: myapp/templates/view-item.html:177
+msgid "Hide Image"
+msgstr "הסתר תמונה"
+
+#: myapp/templates/view-item.html:180 myapp/templates/view-item.html:188
+msgid "Download"
+msgstr "הורד"
+
+#: myapp/templates/view-item.html:228
+msgid "Transaction History"
+msgstr "היסטוריית עסקאות"
+
+#: myapp/templates/view-item.html:232
+msgid "Date"
+msgstr "תאריך"
+
+#: myapp/templates/view-item.html:235
+msgid "Actions"
+msgstr "פעולות"
+
+#: myapp/templates/view-item.html:241
+msgid "Initial Value"
+msgstr "ערך התחלתי"
+
+#: myapp/templates/view-item.html:260
+msgid "No transactions yet."
+msgstr "אין עסקאות עדיין."
+
+#: myapp/templates/view-item.html:274
+msgid "Enter description"
+msgstr "הזן תיאור"
+
+#: myapp/templates/view-item.html:278
+msgid "Enter value"
+msgstr "הזן ערך"
+
+#: myapp/templates/view-item.html:281
+msgid "Add Transaction"
+msgstr "הוסף עסקה"
+
+#: myapp/templates/view-item.html:317
+msgid "Hide PIN"
+msgstr "הסתר PIN"
+
+#: myapp/views.py:29
+msgid "Apprise URLs were already configured. Will not display them again here to "
+"protect secrets. You can freely re-configure the URLs now and hit update "
+"though."
+msgstr "כתובות Apprise כבר הוגדרו. לא יוצגו שוב כאן כדי להגן על סודות. תוכל להגדיר מחדש את הכתובות וללחוץ על עדכן."
+
+#: myapp/views.py:452
+msgid "Marked as used, removing remaining value"
+msgstr "סומן כבשימוש, הערך הנותר הוסר"
+
+#: myapp/views.py:503
+msgid "No Apprise URLs provided."
+msgstr "לא סופקו כתובות Apprise."
+
+#: myapp/views.py:527
+msgid "Invalid Apprise URLs:"
+msgstr "כתובות Apprise לא תקינות:"
+
+#: myapp/views.py:532
+msgid "This is an Apprise test notification."
+msgstr "זו התראת בדיקה של Apprise."
+
+#: myapp/views.py:533
+msgid "Test Notification by VoucherVault"
+msgstr "התראת בדיקה על ידי VoucherVault"
+
+#: myapp/views.py:534
+msgid "Test notification to at least one Apprise URL sent successfully."
+msgstr "התראת בדיקה נשלחה בהצלחה לפחות לכתובת Apprise אחת."
+
+#: myapp/views.py:535
+msgid "Failed to send test notification for every Apprise URL given."
+msgstr "נכשל בשליחת התראת בדיקה לכל כתובות ה-Apprise שסופקו."
+
+#: myapp/views.py:608
+msgid "Item shared successfully!"
+msgstr "הפריט שותף בהצלחה!"
+
+#: myapp/views.py:610
+msgid "Please select at least one user to share with."
+msgstr "אנא בחר לפחות משתמש אחד לשיתוף."
+
+#: myapp/views.py:630
+msgid "Item has been unshared successfully."
+msgstr "הפריט בוטל שיתופו בהצלחה."
+
+#: myproject/settings.py:205
+msgid "English"
+msgstr "אנגלית"
+
+#: myproject/settings.py:206
+msgid "German"
+msgstr "גרמנית"
+
+#: myproject/settings.py:207
+msgid "French"
+msgstr "צרפתית"
+
+#: myproject/settings.py:208
+msgid "Italian"
+msgstr "איטלקית"
